@@ -1,0 +1,125 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.background_img{
+    background-image: url(back2.jpeg);
+    align-items: center;
+    height: 850px;
+}
+.first{
+    height: 25px;
+}
+.head{
+    background-image: url(headimg.png);
+    height: 40px;
+    width: 210px;
+    background-size: cover;
+    margin-left: 45px;
+   padding-top:  25px;
+   filter: blur(-10px);
+   background-repeat: no-repeat;
+   
+}
+.box{
+    content: '';
+    position: absolute;
+    height: 700px;
+    width: 450px;
+    background-color: rgba(0, 0, 0, .8);
+    margin-left: 480px;
+    color: white;
+}
+.head2{
+    margin-left: 70px;
+    margin-top: 50px;
+}
+ .head2 input{
+     height: 60px;
+     width: 325px;
+     color: white;
+     margin-top: 15px;
+     border: 1px solid white;
+     background-color: transparent;
+     border-bottom-left-radius: 5px;
+     border-bottom-right-radius: 5px;
+    border-top-left-radius: 5px;
+     border-top-right-radius: 5px;
+}
+.head2 input:hover{
+    border: 3px solid white;
+}
+.sign{
+    height: 40px;
+    width: 327.5px;
+    background-color: red;
+    color: white;
+    margin-top: 15px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.sign p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    
+}
+.or{
+    height: 50px;
+    width: 327px;
+     display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.sign_code{
+    height: 50px;
+    width: 327px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   background-color: #ffffff;
+   opacity: 0.3;
+   color: black;
+   font-size: 20px;
+   font-weight: 50px;
+}
+ .forget a{
+    margin-bottom: 100px;
+    margin-left: 30%;
+    color: #ffffff;
+} 
+label{
+    height: 44px;
+    width: 50px;
+    color: white;
+    margin-left: 70px;
+    font-size: 20px;
+    font-weight: 10px;
+}
+.class1{
+    margin-left: 70px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+.class1 a{
+    color: white;
+}
+.class1 p{
+    font-size: 15px;
+    opacity: 0.7;
+}
+.paragraph{
+    margin-left: 70px;
+    margin-top: 25px;
+    opacity: 0.5;
+    font-size: 0.9rem;
+}
+.learn a{
+     margin-left: 70px;
+     color: #448EF4;
+}
